@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" >
+                <div class="card mt-3">
+                    <div class="card-header">
+                          Доп. інформація по ключу
+                    </div>
+                    <div class="card-body pb-0">
+                        <table class="table">
+                           <tr>
+                               <td>Описание:</td>
+                               <td>DES-3200-26/C1 Fast Ethernet Switch</td>
+                           </tr>
+                           <tr>
+                               <td>Положение:</td>
+                               <td>Lesnoy_20_1par_2</td>
+                           </tr>
+                           <tr>
+                               <td>Прошивка:</td>
+                               <td>4.37.B013</td>
+                           </tr>
+                           <tr>
+                               <td>Ревизия:</td>
+                               <td>C1</td>
+                           </tr>
+                           <tr>
+                               <td>IP</td>
+                               <td>10.11.71.93</td>
+                           </tr>
+                           <tr>
+                               <td>MAC</td>
+                               <td>90:94:e4:20:35:80</td>
+                           </tr>
+                           <tr>
+                               <td>hiVlan</td>
+                               <td>3768</td>
+                           </tr>
+                           <tr>
+                               <td>loVlan</td>
+                               <td>3100</td>
+                           </tr>
+                            <tr>
+                               <td>Адрес:</td>
+                               <td>Проспект Лесной 20 под. 1
+                                   свитч №1
+                               </td>
+                           </tr>
+                           <tr>
+                               <td colspan="2" id="modal" class="text-center pb-0"><button type="button" id="openModel" data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary">Редактировать свитч</button>
+                               
+
+
+<!-- Modal -->
+<div class="modal fade bg-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Доп. Інформація по ключу</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form id="formModel">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Описание</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Положение:</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Прошивка</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Ревизия</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">IP</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">MAC</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">hiVlan</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">loVlan</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Адрес</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+  </div>
+     </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+                               </td>
+                           </tr>
+                       </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mt-3">
+                    <div class="card-header ">
+                        Управление:
+                    </div>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-primary mb-1">Перезагрузить</button>
+                        <button type="button" class="btn btn-outline-primary mb-1">Попингуй</button>
+                        <button type="button" class="btn btn-outline-primary mb-1">MAC-Адреса с портов</button>
+                        <button type="button" class="btn btn-outline-primary mb-1">Расположение свитча</button>
+                        <button type="button" class="btn btn-outline-primary mb-1">Консоль телнет</button>
+                        <button type="button" class="btn btn-outline-danger mb-1">Отхуярить всех абонов ногами в живот</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5 class="card-title">D-Link DES-3200-26</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Свободние порты:</h6>
+            </div>    
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <button  class="btn btn-success btn-sm float-right mb-1" data-toggle="tooltip" data-placement="right" data-html="true" title="TX <br> RX <br> TERR <br> TXERR">Tooltips</button>
+                                <p class="m-0"><button type="button" class="btn btn-success btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                        <div class="card">
+                            <h5 class="card-header bg-success">1</h5>
+                            <div class="card-body p-1">
+                                <p class='font-weight-bold m-2'>Шишко Василь Николаевич</p>
+                                <p>Пр. Лесной 20 кв.36</p>
+                                <span class="text-success">100</span><span>mbps</span>
+                                <p class="m-0"><button type="button" class="btn btn-outline-primary btn-block">Вкл.</button></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip() 
+        })          
+    </script>
+    <script src="my.js"></script>
+                
+</body>
+</html>
